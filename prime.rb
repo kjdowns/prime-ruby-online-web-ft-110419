@@ -1,7 +1,9 @@
 
 def prime?(int)
+  if int <= 0 
+    return false
+  end
   case int
-    when (<= 0)
       return false
     when 1 
       return false
