@@ -6,6 +6,7 @@ def prime?(int)
     when 2 
       return true
     else
-      div = (3..int).all?{|num| num.odd?}
+      div = (3..int).select?{|num| num.odd?}
+      
   end
 end
