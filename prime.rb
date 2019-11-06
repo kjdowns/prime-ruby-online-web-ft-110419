@@ -6,6 +6,6 @@ def prime?(int)
     when 2 
       return true
     else
-      div = ()
+      div = (3..int).all
   end
 end
